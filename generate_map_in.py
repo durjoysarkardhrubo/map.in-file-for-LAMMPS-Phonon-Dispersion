@@ -21,7 +21,8 @@ if __name__ == "__main__":
     a = int(input("Enter the replication along x axis (a): "))
     b = int(input("Enter the replication along y axis (b): "))
     c = int(input("Enter the replication along z axis (c): "))
-    n = int(input("Enter the number of atoms per unit cell: "))
+    n = int(input("Enter how many atoms per unit cell: "))
     
     # Generate the map file
     generate_map_file(a, b, c, n)
+
